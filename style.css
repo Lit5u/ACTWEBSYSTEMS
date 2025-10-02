@@ -217,3 +217,22 @@ body {
 .login-form button:hover {
   background: #333;
 }
+
+section h2:contains("JavaScript Demo") ~ p,
+section#JavaScript\ Demo p,
+section:has(> div > h2:contains("JavaScript Demo")) p {
+  margin-bottom: 12px;
+  padding: 8px 12px;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  background: #fafaff;
+}
+
+section:last-of-type p {
+  margin-bottom: 12px;
+  padding: 8px 12px;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  background: #fafaff;
+}
+
